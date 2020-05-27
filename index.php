@@ -10,7 +10,7 @@
 	include('dataCreation.php');
 
 	//Data shall be displayed from the most recent to the oldest
-	$reqData = "SELECT * FROM data ORDER BY date DESC LIMIT 10";
+	$reqData = "SELECT * FROM data ORDER BY date DESC LIMIT 15";
 	$ansData = $conn->query($reqData);
 
 ?>
