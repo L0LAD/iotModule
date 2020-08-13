@@ -7,6 +7,6 @@ $d = dirname($d);
 require_once("$d/back/includes/interface_ini.php");
 
 echo $blade->run(
-  "dashboard.dashboard",
+  "layouts.dashboard.dashboard",
   array()
 );

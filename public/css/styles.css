@@ -145,8 +145,25 @@ a.alert {
                  SIDEBAR
 -----------------------------------------*/
 
-aside {
-	background-color: #3b56a8;
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3b56a8;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
 }
 
 #sidebarLogo {
@@ -239,8 +256,3 @@ th:hover {
 tbody {
 	border: 1px solid #dddfeb;
 }
-
-
-
-
-

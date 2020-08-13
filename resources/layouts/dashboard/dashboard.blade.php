@@ -1,4 +1,4 @@
-@extends('template')
+@extends('layouts.template')
 
 @section('title', 'Dashboard')
 
@@ -8,9 +8,5 @@
 @section('style')
 
 @parent
-
-<p>
-  Test Dashboard
-</p>
 
 @endsection

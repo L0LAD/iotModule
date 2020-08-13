@@ -11,4 +11,4 @@
 
 <?php $this->stopSection(); ?>
 
-<?php if (isset($_shouldextend[1])) { echo $this->runChild('template'); } ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layouts.template'); } ?>
